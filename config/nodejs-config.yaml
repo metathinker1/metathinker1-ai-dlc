@@ -1,0 +1,29 @@
+# Node.js Project Configuration for AI-DLC
+project:
+  name: "Node.js Project"
+  language: "nodejs"
+  version: "1.0.0"
+  description: "AI-DLC Node.js project template"
+
+dependencies:
+  node_version: "16+"
+  packages:
+    - name: "express"
+      version: "4.18.0"
+    - name: "lodash"
+      version: "4.17.21"
+    - name: "axios"
+      version: "0.27.0"
+
+development:
+  testing:
+    unit_test_framework: "jest"
+    coverage_threshold: "80%"
+  documentation:
+    generator: "typedoc"
+    format: "json"
+
+deployment:
+  environment: "production"
+  containerization: "docker"
+  ci_cd: "github_actions"

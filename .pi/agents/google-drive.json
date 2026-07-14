@@ -1,0 +1,7 @@
+{
+  "name": "confluence",
+  "description": "Google Drive file management agent for creating and updating AI-DLC artifact files",
+  "resources": [
+    "skill://.pi/agent/skills/google-drive-management/*.md"
+  ]
+}

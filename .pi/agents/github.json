@@ -1,0 +1,7 @@
+{
+  "name": "github",
+  "description": "GitHub management agent for branch creation and PR workflows",
+  "resources": [
+    "skill://.pi/agent/skills/github-pr-creation/*.md"
+  ]
+}

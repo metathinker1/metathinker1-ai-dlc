@@ -1,0 +1,29 @@
+# Python Project Configuration for AI-DLC
+project:
+  name: "Python Project"
+  language: "python"
+  version: "1.0.0"
+  description: "AI-DLC Python project template"
+
+dependencies:
+  python_version: "3.9+"
+  packages:
+    - name: "numpy"
+      version: "1.21.0"
+    - name: "pandas"
+      version: "1.3.0"
+    - name: "flask"
+      version: "2.0.0"
+
+development:
+  testing:
+    unit_test_framework: "pytest"
+    coverage_threshold: "80%"
+  documentation:
+    generator: "sphinx"
+    format: "rst"
+
+deployment:
+  environment: "production"
+  containerization: "docker"
+  ci_cd: "github_actions"

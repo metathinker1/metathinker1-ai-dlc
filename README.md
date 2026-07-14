@@ -1,1 +1,2 @@
-# metathinker1-ai-dlcs
+# AI-DLC (AI-Driven Lifecycle)
+

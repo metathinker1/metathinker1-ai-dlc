@@ -153,7 +153,5 @@ PTH → AI-DLC Docs → <project-name> → <feature-request-name>
 {Edit}
 ## Integrations
 
-- **Atlassian Jira** — User stories created directly in Jira (Observability Team)
-- **Atlassian Confluence** — [Technical Docs](https://ancestry.atlassian.net/wiki/spaces/PTH/pages/100509797/Technical+Docs) for stack documentation, [Observability User Docs](https://ancestry.atlassian.net/wiki/spaces/PTH/pages/191168542/Observability+User+Docs) for user-facing documentation
 - **Ancestry Standards** — ENGP standards enforced during design & construction
 
